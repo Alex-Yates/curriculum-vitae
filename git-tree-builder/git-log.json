@@ -1,0 +1,46 @@
+
+
+{
+    "log": [
+        {
+            "action": "commit",
+            "branch": "main",
+            "date": "Mon Nov 29 06:00 2010 +0000",
+            "message": "Drama graduate with zero tech experience.",
+            "description": "Hello world"
+        },
+
+        {
+            "action": "branch",
+            "branch": "redgate",
+            "date": "Mon Dec 06 06:00 2010 +0000",
+            "message": "Joined Redgate as Sales Executive.",
+            "description": "Redgate took a punt on me."
+        },
+        
+        {
+            "action": "commit",
+            "branch": "redgate",
+            "date": "Mon Nov 29 06:00 2010 +0000",
+            "message": "Identified USD 1M revenue opportunity in year 1.",
+            "description": "$$$"
+        },
+
+        {
+            "action": "commit",
+            "branch": "redgate",
+            "date": "Mon Nov 29 06:00 2010 +0000",
+            "message": "Pioneered product demos - 7x increase to AVG order value.",
+            "description": "I am very smart and intelligent."
+        },
+
+        {
+            "action": "commit",
+            "branch": "main",
+            "date": "Mon Nov 29 06:00 2010 +0000",
+            "message": "Started Computer Science BSc (eve/weekend).",
+            "description": "Blah Blah"
+        }
+    ]
+}
+
