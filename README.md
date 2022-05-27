@@ -18,11 +18,11 @@ Since it's a nightmare to update history, especially while maintaining the inten
 
 With this in mind, I wrote a script to recreate the repo manually. All the code and raw content is in ./git-tree-builder. You can recreate the repo on your own machine by opening a PowerShell window and running:
 
-> git clone https://github.com/Alex-Yates/curriculum-vitae.git
+``` git clone https://github.com/Alex-Yates/curriculum-vitae.git
 
-> cd curriculum-vitae
+```cd curriculum-vitae
 
-> cd git-tree-builder
+`cd git-tree-builder`
 
 > .\build-repo.ps1
 
