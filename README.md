@@ -20,7 +20,7 @@ With this in mind, I wrote a script to recreate the repo manually. All the code 
 
 git clone https://github.com/Alex-Yates/curriculum-vitae.git
 
-```cd curriculum-vitae
+cd curriculum-vitae
 
 `cd git-tree-builder`
 
