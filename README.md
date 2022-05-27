@@ -20,15 +20,15 @@ With this in mind, I wrote a script to recreate the repo manually. All the code 
 
 git clone https://github.com/Alex-Yates/curriculum-vitae.git
 
-    cd curriculum-vitae
+    > cd curriculum-vitae
 
-    `cd git-tree-builder`
+    > cd git-tree-builder
 
-    .\build-repo.ps1
+    > .\build-repo.ps1
 
 By default this builds the repo in the directory "C:/deleteme/CV_GitTree". If you would like to build the repo somewhere else:
 
-    .\build-repo.ps1 -path "C:/somewhere/else"
+    > .\build-repo.ps1 -path "C:/somewhere/else"
 
 This might feel like over-engineering. It cost me a few hours to troubleshoot a few things. In particular:
 
