@@ -54,7 +54,7 @@ foreach ($logItem in $gitLog.log) {
             & (git checkout $branchName) -ErrorAction 'SilentlyContinue' # Required because git sends output to stderr :-(
         }
         catch {
-            # The try block fails every time because git sends output to stderr.
+            # The try block erroneously fails every time because git sends output to stderr.
             # This try/catch and the use of "-ErrorAction 'SilentlyContinue'" (above) is a hack around an annoying limitation in git.
         }
     }
@@ -66,7 +66,7 @@ foreach ($logItem in $gitLog.log) {
             & (git checkout main)  -ErrorAction 'SilentlyContinue' # Required because git sends output to stderr :-(
         }
         catch {
-            # The try block fails every time because git sends output to stderr.
+            # The try block erroneously fails every time because git sends output to stderr.
             # This try/catch and the use of "-ErrorAction 'SilentlyContinue'" (above) is a hack around an annoying limitation in git.
         }
         & git merge $branchName
