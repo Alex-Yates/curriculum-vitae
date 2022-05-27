@@ -32,4 +32,4 @@ This might feel like over-engineering. It cost me a few hours to troubleshoot a 
 - IO bottlenecks getting everything out of sync and screwing up the commit order and branch diagrams.
 - Git sending it's output to stderr by default, causing phantom errors.
 
-However, as I proof-read, redrafterd and refined this document, it was very useful to be able to tweak the content in a simple JSON file, and respawn the repo from scratch in a few seconds.
+However, as I proof-read, redrafterd and refined this document, it was very useful to be able to tweak the content in a simple JSON file, and respawn the repo from scratch in a few seconds. Also, it was a pretty fun little learning project. :-)
