@@ -70,23 +70,28 @@ foreach ($logItem in $gitLog.log) {
             # This try/catch and the use of "-ErrorAction 'SilentlyContinue'" (above) is a hack around an annoying limitation in git.
         }
         & git merge $branchName
+        & git commit --amend -m "$commitMessage" -m "Description $commitDescription" | out-null
     }
+    else {
+        # Create some content
+        Write-Output "  Adding content and committing with message: $commitMessage"
+        $file = "$branchName" + ".md"
+        if (!(Test-Path $file)){
+            New-Item -ItemType File -Name $file | out-null
+            Add-Content -Path $file -Value "`# $branchName"
+        }
+        Add-Content -Path $file -Value "`#`# $commitMessage"
+        Add-Content -Path $file -Value "$commitDate"
+        Add-Content -Path $file -Value "$commitDescription"
+        Add-Content -Path $file -Value ""
 
-    # Create some content
-    Write-Output "  Adding content and committing with message: $commitMessage"
-    $file = "$branchName" + ".md"
-    if (!(Test-Path $file)){
-        New-Item -ItemType File -Name $file | out-null
-        Add-Content -Path $file -Value "`# $branchName"
+        # Brief pause. Otherwise IO can't keep up, commits get out of sequence, and branch diagram gets messed up.
+        Start-Sleep 1 # On my machine I can get away with 0.7, but any faster and it gets unreliable. 
+
+        # Commit to git
+        & git add . | out-null
+        & git commit -m "$commitMessage" -m "Description $commitDescription" | out-null
     }
-    Add-Content -Path $file -Value "`#`# $commitMessage"
-    Add-Content -Path $file -Value "$commitDate"
-    Add-Content -Path $file -Value "$commitDescription"
-    Add-Content -Path $file -Value ""
-
-    # Commit to git
-    & git add . | out-null
-    & git commit -m "$commitMessage" -m "Description $commitDescription" | out-null
     & git commit --amend --date="$commitDate" --no-edit | out-null
 }
 
