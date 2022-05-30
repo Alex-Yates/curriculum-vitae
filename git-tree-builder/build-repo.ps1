@@ -6,6 +6,8 @@ $ErrorActionPreference = "Stop"
 
 Write-Output "A little prep work..."
 
+$startLocation = (Get-Location).Path
+
 Write-Output "  Importing log from git-log.json"
 $gitLog = Get-Content git-log.json | ConvertFrom-Json
 
@@ -28,7 +30,7 @@ if ($gitVersion -notlike "git version *"){
 }
 
 Write-Output "  Initializing git repo"
-& git init | Out-Null
+& git init --initial-branch=main | Out-Null
 
 Write-Output "Creating git log..."
 
@@ -94,6 +96,9 @@ foreach ($logItem in $gitLog.log) {
     }
     & git commit --amend --date="$commitDate" --no-edit | out-null
 }
+
+Write-Output "  Setting context back to: $startLocation"
+Set-Location $startLocation
 
 Write-Output "FINISHED!"
 
