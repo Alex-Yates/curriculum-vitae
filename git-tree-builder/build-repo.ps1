@@ -32,16 +32,19 @@ if ($gitVersion -notlike "git version *"){
 Write-Output "  Initializing git repo"
 & git init --initial-branch=main | Out-Null
 
+$gitHashesForEachNewYear = @{}
+
 Write-Output "Creating git log..."
-
 foreach ($logItem in $gitLog.log) {
-
     # Creating new string variables helps when passing values to other commands 
     $branchName = $logItem.branch
     $commitMessage = $logItem.message
     $commitDescription = $logItem.description
     $commitDate = $logItem.date
     
+    $dateSplit = $commitDate -split " "
+    $commitYear = $dateSplit[4]
+
     # If this is a new branch, create it.
     if ($logItem.action -like "branch"){
         Write-Output "    Creating new branch: $branchName"
@@ -94,7 +97,24 @@ foreach ($logItem in $gitLog.log) {
         & git add . | out-null
         & git commit -m "$commitMessage" -m "Description $commitDescription" | out-null
     }
+
+    $env:GIT_COMMITTER_DATE = $commitDate
     & git commit --amend --date="$commitDate" --no-edit | out-null
+    $env:GIT_COMMITTER_DATE = ""
+
+    # If new year, update hashtable with commit SHA
+    if ($commitYear -notin $gitHashesForEachNewYear.keys){
+        $lastCommitHash = & git rev-parse --short HEAD
+        $gitHashesForEachNewYear.add($commitYear, $lastCommitHash)
+    }
+}
+
+Write-Output "  Tagging first commit in each calendar year."
+$gitHashesForEachNewYear.Keys | ForEach-Object {
+    $year = $_
+    $hash = $gitHashesForEachNewYear[$_]
+    Write-Output "    Tagging commit $hash with $year"
+    & git tag $year $hash
 }
 
 Write-Output "  Setting context back to: $startLocation"

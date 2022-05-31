@@ -155,17 +155,17 @@
             "description": "Blah Blah"
         },
         {
-            "action": "merge",
-            "branch": "data_relay",
-            "date": "Mon Feb 01 06:00 2022 +0000",
-            "message": "Resign from Data Relay to reprioritise my focus.",
-            "description": "Blah Blah"
-        },
-        {
             "action": "commit",
             "branch": "dlm_consultants",
             "date": "Fri Dec 31 06:00 2021 +0000",
             "message": "Most profitable year for DLM Consultants.",
+            "description": "Blah Blah"
+        },
+        {
+            "action": "merge",
+            "branch": "data_relay",
+            "date": "Mon Feb 01 06:00 2022 +0000",
+            "message": "Resign from Data Relay to reprioritise my focus.",
             "description": "Blah Blah"
         },
         {
