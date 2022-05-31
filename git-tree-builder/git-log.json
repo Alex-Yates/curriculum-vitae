@@ -1,0 +1,180 @@
+{
+    "log": [
+        {
+            "action": "commit",
+            "branch": "main",
+            "date": "Mon Nov 29 06:00 2010 +0000",
+            "message": "Drama graduate with zero tech experience.",
+            "description": "Hello world"
+        },
+        {
+            "action": "branch",
+            "branch": "redgate",
+            "date": "Mon Dec 06 06:00 2010 +0000",
+            "message": "Joined Redgate as Sales Executive.",
+            "description": "Redgate took a punt on me."
+        },
+        {
+            "action": "commit",
+            "branch": "redgate",
+            "date": "Mon Jun 06 06:00 2011 +0000",
+            "message": "Identified USD 1M revenue opportunity in year 1.",
+            "description": "$$$"
+        },
+        {
+            "action": "commit",
+            "branch": "redgate",
+            "date": "Mon Jan 09 06:00 2012 +0000",
+            "message": "Pioneered product demos - 7x increase to AVG order value.",
+            "description": "I am very smart and intelligent."
+        },
+        {
+            "action": "commit",
+            "branch": "main",
+            "date": "Mon Sep 30 06:00 2013 +0000",
+            "message": "Started Computer Science BSc (eve/weekend).",
+            "description": "Blah Blah"
+        },
+        {
+            "action": "commit",
+            "branch": "redgate",
+            "date": "Mon Oct 07 06:00 2013 +0000",
+            "message": "More technical roles: Product Champion, Sales Engineer.",
+            "description": "Blah Blah"
+        },
+        {
+            "action": "commit",
+            "branch": "main",
+            "date": "Mon Mar 31 06:00 2014 +0000",
+            "message": "Start blogging/speaking: Top Google hit for 'Database CI'.",
+            "description": "Blah Blah"
+        },
+        {
+            "action": "commit",
+            "branch": "redgate",
+            "date": "Mon Mar 02 06:00 2015 +0000",
+            "message": "Co-wrote/delivered 3-day DB DevOps training class.",
+            "description": "Blah Blah"
+        },
+        {
+            "action": "merge",
+            "branch": "redgate",
+            "date": "Sat Aug 13 17:00 2016 -0430",
+            "message": "Quit Redgate to become a Database DevOps consultant.",
+            "description": "Blah Blah"
+        },
+        {
+            "action": "branch",
+            "branch": "dlm_consultants",
+            "date": "Thur Sep 01 06:00 2016 +0000",
+            "message": "Founded DLM Consultants. Short DevOps training/consulting.",
+            "description": "Blah Blah"
+        },
+        {
+            "action": "commit",
+            "branch": "main",
+            "date": "Mon Oct 03 06:00 2016 +0000",
+            "message": "Paused BSc. (Found faster ways to learn. Focus on business.)",
+            "description": "Blah Blah"
+        },
+        {
+            "action": "branch",
+            "branch": "data_relay",
+            "date": "Wed Oct 05 06:00 2016 +0000",
+            "message": "Joined Data Relay (community conference) to manage sponsorship.",
+            "description": "Blah Blah"
+        },
+        {
+            "action": "commit",
+            "branch": "main",
+            "date": "Thur Jun 01 06:00 2017 +0000",
+            "message": "First Microsoft MVP Award. (Data Platform category.)",
+            "description": "Blah Blah"
+        },
+        {
+            "action": "commit",
+            "branch": "dlm_consultants",
+            "date": "Fri Sep 01 06:00 2017 +0000",
+            "message": "DLM has 12 consulting customers in year 1, including United Nations.",
+            "description": "Blah Blah"
+        },
+        {
+            "action": "commit",
+            "branch": "data_relay",
+            "date": "Mon Oct 9 06:00 2017 +0000",
+            "message": "Doubled sponsor revenue for Data Relay 2017. 5 events, 1,000 attendees.",
+            "description": "Blah Blah"
+        },
+        {
+            "action": "commit",
+            "branch": "main",
+            "date": "Sun Dec 31 06:00 2017 +0000",
+            "message": "Busiest year as conference speaker: 44 talks @ 34 events.",
+            "description": "Blah Blah"
+        },
+        {
+            "action": "commit",
+            "branch": "dlm_consultants",
+            "date": "Mon Jul 30 09:00 2018 +0500",
+            "message": "Delivered DevOps classes for Brent Ozar. Sold out. 100% 5* reviews.",
+            "description": "Blah Blah"
+        },
+        {
+            "action": "commit",
+            "branch": "dlm_consultants",
+            "date": "Mon Jan 07 06:00 2019 +0000",
+            "message": "Shift to longer, more technical/hands-on DevOps engineering contracts.",
+            "description": "Blah Blah"
+        },
+        {
+            "action": "commit",
+            "branch": "data_relay",
+            "date": "Mon Jan 27 06:00 2020 +0000",
+            "message": "Promoted to Director of Data Relay due to leading contribution.",
+            "description": "Blah Blah"
+        },
+        {
+            "action": "commit",
+            "branch": "dlm_consultants",
+            "date": "Mon Oct 05 06:00 2020 +0000",
+            "message": "Created training program for Octopus Deploy (DevOps tool).",
+            "description": "Blah Blah"
+        },
+        {
+            "action": "commit",
+            "branch": "dlm_consultants",
+            "date": "Mon Nov 23 06:00 2020 +0000",
+            "message": "Gene Kim, Patrick Debois, Nicole Forsgren promote 'DevOps Reading List' post.",
+            "description": "Blah Blah"
+        },
+        {
+            "action": "commit",
+            "branch": "data_relay",
+            "date": "Mon Apr 19 06:00 2021 +0000",
+            "message": "Rapidly adapted to deliver first fully virtual Data Relay conference.",
+            "description": "Blah Blah"
+        },
+        {
+            "action": "commit",
+            "branch": "dlm_consultants",
+            "date": "Fri Dec 31 06:00 2021 +0000",
+            "message": "Most profitable year for DLM Consultants.",
+            "description": "Blah Blah"
+        },
+        {
+            "action": "merge",
+            "branch": "data_relay",
+            "date": "Mon Feb 01 06:00 2022 +0000",
+            "message": "Resign from Data Relay to reprioritise my focus.",
+            "description": "Blah Blah"
+        },
+        {
+            "action": "commit",
+            "branch": "main",
+            "date": "Mon May 30 06:00 2022 +0000",
+            "message": "Alex misses being part of a team and is looking for a new challenge.",
+            "description": "Blah Blah"
+        }
+    ]
+}
+
