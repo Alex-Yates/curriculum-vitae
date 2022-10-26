@@ -11,7 +11,7 @@
             "action": "branch",
             "branch": "redgate",
             "date": "Mon Dec 06 06:00 2010 +0000",
-            "message": "Joined Redgate as Sales Executive.",
+            "message": "Joined Redgate as Graduate Sales Person.",
             "description": "Redgate took a punt on me."
         },
         {
@@ -39,7 +39,7 @@
             "action": "commit",
             "branch": "redgate",
             "date": "Mon Oct 07 06:00 2013 +0000",
-            "message": "Promoted to Solutions Engineer after demonstrating technical ability.",
+            "message": "Promoted to Solutions Engineer: Tech implementation for biggest customers.",
             "description": "Blah Blah"
         },
         {
