@@ -11,7 +11,7 @@
             "action": "branch",
             "branch": "redgate",
             "date": "Mon Dec 06 06:00 2010 +0000",
-            "message": "Joined Redgate as Sales Executive.",
+            "message": "Joined Redgate as Graduate Sales Person.",
             "description": "Redgate took a punt on me."
         },
         {
@@ -32,28 +32,28 @@
             "action": "commit",
             "branch": "main",
             "date": "Mon Sep 30 06:00 2013 +0000",
-            "message": "Started Computer Science BSc (eve/weekend).",
+            "message": "Recognised need to skill up. Started CompSci BSc (eve/weekend).",
             "description": "Blah Blah"
         },
         {
             "action": "commit",
             "branch": "redgate",
             "date": "Mon Oct 07 06:00 2013 +0000",
-            "message": "More technical roles: Product Champion, Sales Engineer.",
+            "message": "Promoted to Solutions Engineer: Tech implementation for biggest customers.",
             "description": "Blah Blah"
         },
         {
             "action": "commit",
             "branch": "main",
             "date": "Mon Mar 31 06:00 2014 +0000",
-            "message": "Start blogging/speaking: Top Google hit for 'Database CI'.",
+            "message": "Started blogging/speaking: Top Google hit for 'Database CI'.",
             "description": "Blah Blah"
         },
         {
             "action": "commit",
             "branch": "redgate",
             "date": "Mon Mar 02 06:00 2015 +0000",
-            "message": "Co-wrote/delivered 3-day DB DevOps training class.",
+            "message": "Co-wrote/delivered 3-day training class. Increased sales conversions.",
             "description": "Blah Blah"
         },
         {
@@ -67,7 +67,7 @@
             "action": "branch",
             "branch": "dlm_consultants",
             "date": "Thur Sep 01 06:00 2016 +0000",
-            "message": "Founded DLM Consultants. Short DevOps training/consulting.",
+            "message": "Founded DLM Consultants. Increaed salary. Profitable from day 1.",
             "description": "Blah Blah"
         },
         {
@@ -81,7 +81,7 @@
             "action": "branch",
             "branch": "data_relay",
             "date": "Wed Oct 05 06:00 2016 +0000",
-            "message": "Joined Data Relay (community conference) to manage sponsorship.",
+            "message": "Invited to manage sponsorship for Data Relay (community conference).",
             "description": "Blah Blah"
         },
         {
@@ -123,21 +123,21 @@
             "action": "commit",
             "branch": "dlm_consultants",
             "date": "Mon Jan 07 06:00 2019 +0000",
-            "message": "Shift to longer, more technical/hands-on DevOps engineering contracts.",
+            "message": "Longer Platform Engineer contracts: Azure DevOps, Octopus, PowerShell.",
             "description": "Blah Blah"
         },
         {
             "action": "commit",
             "branch": "data_relay",
             "date": "Mon Jan 27 06:00 2020 +0000",
-            "message": "Promoted to Director of Data Relay due to leading contribution.",
+            "message": "Promoted to Director of Data Relay for proven delivery and leadership.",
             "description": "Blah Blah"
         },
         {
             "action": "commit",
             "branch": "dlm_consultants",
             "date": "Mon Oct 05 06:00 2020 +0000",
-            "message": "Created training program for Octopus Deploy (DevOps tool).",
+            "message": "Created SQL/AWS training program for Octopus Deploy.",
             "description": "Blah Blah"
         },
         {
@@ -158,14 +158,14 @@
             "action": "commit",
             "branch": "dlm_consultants",
             "date": "Fri Dec 31 06:00 2021 +0000",
-            "message": "Most profitable year for DLM Consultants.",
+            "message": "Most profitable year for DLM Consultants so far.",
             "description": "Blah Blah"
         },
         {
             "action": "merge",
             "branch": "data_relay",
             "date": "Mon Feb 01 06:00 2022 +0000",
-            "message": "Resign from Data Relay to reprioritise my focus.",
+            "message": "Resigned from Data Relay to reprioritise my focus.",
             "description": "Blah Blah"
         },
         {
