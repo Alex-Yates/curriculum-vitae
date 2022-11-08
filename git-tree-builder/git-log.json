@@ -60,14 +60,14 @@
             "action": "merge",
             "branch": "redgate",
             "date": "Sat Aug 13 17:00 2016 -0430",
-            "message": "Quit Redgate to become a Database DevOps consultant.",
+            "message": "Resigned from Redgate to become a Database DevOps consultant.",
             "description": "Blah Blah"
         },
         {
             "action": "branch",
             "branch": "dlm_consultants",
             "date": "Thur Sep 01 06:00 2016 +0000",
-            "message": "Founded DLM Consultants. Increaed salary. Profitable from day 1.",
+            "message": "Founded DLM Consultants. Increased salary. Profitable from day 1.",
             "description": "Blah Blah"
         },
         {
@@ -172,7 +172,7 @@
             "action": "commit",
             "branch": "main",
             "date": "Mon May 30 06:00 2022 +0000",
-            "message": "Alex misses being part of a team and is looking for a new challenge.",
+            "message": "Seeks new, broader, and more hands-on challenges. More tech, less marketing.",
             "description": "Blah Blah"
         }
     ]
